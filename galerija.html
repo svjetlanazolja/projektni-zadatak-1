@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="assets/js/lightgallery.js-master/dist/css/lightgallery.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Galerija</title>
+</head>
+<body>
+    <div class="header_nav">    
+        <header class="site-header"> 
+            <p class="site-name"><a href="pocetna_stranica.html">Projektni zadatak - ITP100</a></p> 
+        </header>
+        <nav class="site-nav">
+            <a id="nav-trigger" class="trigger">Meni</a>
+            <div id="nav-wrapper" class="wrapper">
+                <a href="pocetna_stranica.html">Početna stranica</a>
+                <a href="rodjendanski_poklon.html">Rođendanski poklon</a>
+                <a href="omiljeni_film.html">Omiljeni film</a>
+                <a href="omiljeni_grad.html">Omiljeni grad</a>
+                <a href="hobi.html">Hobi</a>
+                <a class="active" href="galerija.html">Galerija</a>
+                <a href="kviz.html">Kviz</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="site-page page-galerija">
+        <main class="site-main ">
+            <h1 class="page-title">Galerija</h1>
+            <div class="galerija" id="lightgallery">
+                <a href="assets/galerija/1havana.jpg"><img src="assets/galerija/sm11havana.jpg" alt="Havana"></a>
+                <a href="assets/galerija/2havana.jpg"><img src="assets/galerija/sm22havana.jpg" alt="Havana"></a>
+                <a href="assets/galerija/3havana.jpg"><img src="assets/galerija/sm33havana.jpg" alt="Havana"></a>
+                <a href="assets/galerija/4havana.jpg"><img src="assets/galerija/sm44havana.jpg" alt="Havana"></a>
+                <a href="assets/galerija/5skijanje.jpg"><img src="assets/galerija/sm44skijanje.jpg" alt="Skijanje"></a>
+                <a href="assets/galerija/6skijanje.jpg"><img src="assets/galerija/sm66skijanje.jpg" alt="Skijanje"></a>
+                <a href="assets/galerija/7skijanje.jpg"><img src="assets/galerija/sm77skijanje.jpg" alt="Skijanje"></a>
+                <a href="assets/galerija/77skijanje.jpg"><img src="assets/galerija/sm7777skijanje.jpg" alt="Skijanje"></a>
+                <a href="assets/galerija/8forrest_gump.jpg"><img src="assets/galerija/sm88forest_gump.jpg" alt="Forrest Gump"></a>
+                <a href="assets/galerija/9forrest_gump.jpg"><img src="assets/galerija/sm99forest_gump.jpg" alt="Forrest Gump"></a>
+                <a href="assets/galerija/10forrest_gump.jpg"><img src="assets/galerija/sm10forrest_gump.jpg" alt="Forrest Gump"></a>
+                <a href="assets/galerija/11forrest_gump.jpg"><img src="assets/galerija/sm1111forrest_gump.jpg" alt="Forrest Gump"></a>
+            </div>
+        </main>
+    </div>    
+
+    <footer class="site-footer">
+        <p>Svjetlana Žolja, <span id="today-date"></span></p>
+    </footer>
+
+    <script src="assets/js/lightgallery.js-master/dist/js/lightgallery.min.js"></script>
+    <script type="text/javascript">
+        lightGallery(document.getElementById('lightgallery')); 
+    </script>
+    <script src="script.js"></script>
+
+</body>
+</html>

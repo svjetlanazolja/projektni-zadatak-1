@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Kviz</title>
+</head>
+<body>
+    <div class="header_nav">
+        <header class="site-header"> 
+            <p class="site-name"><a href="pocetna_stranica.html">Projektni zadatak - ITP100</a></p> 
+        </header>
+        <nav class="site-nav">
+            <a id="nav-trigger" class="trigger">Meni</a>
+            <div id="nav-wrapper" class="wrapper">
+                <a href="pocetna_stranica.html">Početna stranica</a>
+                <a href="rodjendanski_poklon.html">Rođendanski poklon</a>
+                <a href="omiljeni_film.html">Omiljeni film</a>
+                <a href="omiljeni_grad.html">Omiljeni grad</a>
+                <a href="hobi.html">Hobi</a>
+                <a href="galerija.html">Galerija</a>
+                <a class="active" href="kviz.html">Kviz</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="site-page page-kviz">
+        <main class="site-main">
+            <h1 class="page-title">Kviz</h1>
+                <form class="kviz-pitanja"> 
+
+                    <fieldset>
+                        <p class="question">1. Koji mi je omiljeni film?</p>
+                        <ul>
+                            <li>
+                                <input class="answer" type="radio" name="q1" value="1">
+                                <label id="correctString1">Forrest Gump</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q1" value="0">
+                                <label>Star Trek</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q1" value="0">
+                                <label>Rush Hour</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q1" value="0">
+                                <label>Erin Brokovich</label>
+                            </li>
+                        </ul>                            
+                    </fieldset>
+
+                    <fieldset>
+                        <p class="question">2. U kojem mjesecu je moj rodjendan?</p>
+                        <ul>
+                            <li>
+                                <input class="answer" type="radio" name="q2" value="0">
+                                <label>Septembar</label>
+                            </li>  
+                            <li>
+                                <input class="answer" type="radio" name="q2" value="1">
+                                <label id="correctString2">Oktobar</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q2" value="0">
+                                <label>Novembar</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q2" value="0">
+                                <label>Decembar</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+
+                    <fieldset>
+                        <p class="question">3. Koji je moj hobi?</p>
+                        <ul>
+                            <li>
+                                <input class="answer" type="radio" name="q3" value="0">
+                                <label>Plivanje</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q3" value="1">
+                                <label id="correctString3">Skijanje</label>
+                            </li>
+                            <li> 
+                                <input class="answer" type="radio" name="q3" value="0">
+                                <label>Plesanje</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q3" value="0">
+                                <label>Trčanje</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+
+                    <fieldset>
+                        <p class="question">4. Koji poklon želim dobiti za rodjendan?</p>
+                        <ul>
+                            <li>
+                                <input class="answer" type="radio" name="q4" value="0">
+                                <label>Opremu za plivanje</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q4" value="1">
+                                <label id="correctString4">Opremu za skijanje</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q4" value="0">
+                                <label>Opremu za ljetovanje</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q4" value="0">
+                                <label>Opremu za slikanje</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+
+                    <fieldset>
+                        <p class="question">5. Gdje sam prvi put skijala?</p>
+                        <ul>
+                            <li>
+                                <input class="answer" type="radio" name="q5" value="0">
+                                <label>Vlašić</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q5" value="1">
+                                <label id="correctString5">Kupres</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q5" value="0">
+                                <label>Kozara</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q5" value="0">
+                                <label>Raduša</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+
+                    <fieldset>
+                        <p class="question">6. Koji sam fakultet završila?</p>
+                        <ul>
+                            <li>
+                                <input class="answer" type="radio" name="q6" value="0">
+                                <label>Ekonomski Fakultet</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q6" value="0">
+                                <label >Pravni Fakultet</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q6" value="0">
+                                <label>Medicinski Fakultet</label>
+                            </li>
+                            <li>
+                                <input class="answer" type="radio" name="q6" value="1">
+                                <label id="correctString6">Fakultet Političkih Nauka</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+                <button class="quizSubmit" id="submitButton" onClick="submitQuiz()">Rezultat</button>
+                        
+                                      
+
+
+            <div class="quizAnswers" id="correctAnswer1"></div>
+            <div class="quizAnswers" id="correctAnswer2"></div>
+            <div class="quizAnswers" id="correctAnswer3"></div>
+            <div class="quizAnswers" id="correctAnswer4"></div>
+            <div class="quizAnswers" id="correctAnswer5"></div>
+            <div class="quizAnswers" id="correctAnswer6"></div>
+        
+            <div>
+                <h2 class="quizScore" id="userScore"></h2>
+            </div>
+            </div>
+               
+            </main>
+        </div>
+
+    <footer class="site-footer">
+        <p>Svjetlana Žolja, <span id="today-date"></span></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

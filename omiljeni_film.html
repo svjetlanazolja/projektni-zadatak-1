@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Omiljeni film</title>
+</head>
+<body>
+    <div class="header_nav">
+        <header class="site-header"> 
+            <p class="site-name"><a href="pocetna_stranica.html">Projektni zadatak - ITP100</a></p> 
+        </header>
+        <nav class="site-nav">
+            <a id="nav-trigger" class="trigger">Meni</a>
+            <div id="nav-wrapper" class="wrapper">
+                <a href="pocetna_stranica.html">Početna stranica</a>
+                <a href="rodjendanski_poklon.html">Rođendanski poklon</a>
+                <a class="active" href="omiljeni_film.html">Omiljeni film</a>
+                <a href="omiljeni_grad.html">Omiljeni grad</a>
+                <a href="hobi.html">Hobi</a>
+                <a href="galerija.html">Galerija</a>
+                <a href="kviz.html">Kviz</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="site-page">
+        <main class="site-main">
+            <div>
+            <h1 class="page-title">Forrest Gump (1994)</h1>
+            <p>Prosječna ocjena 8.8 <a href="https://www.imdb.com/title/tt0109830/" target="_blank">IMDb stranica</a></p>
+            
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/uPIEn0M8su0" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Alabama, 1940-ih. Forrest Gump je mali dječak kojeg odgaja samohrana majka i kojemu je ustanovljen ispodprosječan IQ od samo 75. Zbog toga ga druga djeca zovu idiotom i jedina mu je prijateljica djevojčica Jenny. 
+                Kada je Forrest odrastao i otkrio da može brzo trčati, jedan ga je trener upisao na fakultet kako bi mogao trčati u njegovoj momčadi američkog nogometa. 
+                U međuvremenu je Jenny napustila Alabamu kako bi postala slavna dok je Forrest unovačen kao vojnik u ratu u Vijetnamu. 
+                Tamo je spasio poručnika Dana, koji je ostao paraliziran za kolica, te se sa njim vratio u SAD kako bi započeo posao ribara koji lovi škampe. </p>
+
+            <p>Kada uragan uništi sve brodove osim njihovog, oni dobiju monopol i postanu bogati, te investiraju u tvrtku Apple Computer. 
+                No, iako je postao bogat, Forrest je cijelo vrijeme jedino mislio na Jenny u koju je bio zaljubljen. 
+                Jednog dana, ona se vrati i pojavi pred njegovom kućom, očajna za novcem. On ju prihvati i oni provedu nekoliko dana zajedno. 
+                Onda, isto kao što se tajnovito pojavila, Jenny je jednako brzo i nestala bez da je išta rekla. 
+                Forrest je na to odlučio trčati nekoliko godina, od Atlanskog oceana do Tihog i natrag, te je opet privukao pozornost medija. 
+                U 1980-ima je dobio pismo od Jenny te se uputio k njenoj kući. Pronađe ju te otkrije da je ona dobila njegovog sina, inteligentnog dječaka. 
+                Ubrzo, ona mu otkrije da boluje od neke nove bolesti te nakon nekog vremena umire. Forrest se pobrine za njihovo dijete.</p>
+        </div>
+        </main>
+        <aside class="site-aside">
+            <img src="assets/images/forrest.png" alt="Forrest Gump">
+            <h3>Glavni glumci:</h3>
+            <ul class="fency-list">
+                <li><a href="https://hr.wikipedia.org/wiki/Tom_Hanks" target="_blank">Tom Hanks</a> kao Forrest Gump</li>
+                <li><a href="https://hr.wikipedia.org/wiki/Robin_Wright" target="_blank">Robin Wright</a> kao Jenny</li>
+                <li><a href="https://hr.wikipedia.org/wiki/Gary_Sinise" target="_blank">Gary Sinise</a> kao Poručnik Dan</li>
+                <li><a href="https://hr.wikipedia.org/wiki/Sally_Field" target="_blank">Sally Field</a> kao Forrestova majka</li>
+            </ul>
+        </aside>
+
+        <div class="kviz">
+            <form>
+                <label for="zanr">Kojeg žanra je film? </label>
+                <input type="text" id="zanr"> 
+            </form>
+
+            <button class="KvizSubmitDugme">Pošalji</button>
+            <div class="odgovor"></div>
+        </div>
+    </div>
+
+   
+
+    <footer class="site-footer">
+        <p>Svjetlana Žolja, <span id="today-date"></span></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
